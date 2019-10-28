@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import 'whatwg-fetch';
 import { getbaseUrl } from './baseUrl';
 
