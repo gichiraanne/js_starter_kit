@@ -10,8 +10,8 @@
     "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all --parallel open:src lint:watch test:watch start-mockapi",
     "open:src": "babel-node buildScripts/srcServer.js",
-		"lint": "esw webpack.config.* src buildScripts --color",
-		"lint:fix": "npm run lint -- --fix",
+    "lint": "esw webpack.config.* src buildScripts --color",
+    "lint:fix": "npm run lint -- --fix",
     "lint:watch": "npm run lint -- --watch",
     "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel open:src localtunnel",
@@ -29,6 +29,7 @@
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
+    "minimist": "^1.2.5",
     "whatwg-fetch": "3.0.0"
   },
   "devDependencies": {
@@ -54,12 +55,14 @@
     "jsdom": "^15.1.1",
     "json-schema-faker": "0.5.0-rc17",
     "json-server": "0.15.0",
+    "kind-of": "^6.0.3",
     "localtunnel": "1.9.2",
     "mocha": "6.1.4",
     "npm-run-all": "4.1.5",
     "numeral": "2.0.6",
     "open": "6.3.0",
     "rimraf": "2.6.3",
+    "serialize-javascript": "^3.0.0",
     "style-loader": "0.23.1",
     "surge": "0.21.3",
     "webpack": "4.34.0",
