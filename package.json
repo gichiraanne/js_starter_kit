@@ -62,7 +62,7 @@
     "numeral": "2.0.6",
     "open": "7.0.0",
     "rimraf": "2.6.3",
-    "serialize-javascript": "^3.0.0",
+    "serialize-javascript": "^3.1.0",
     "style-loader": "0.23.1",
     "surge": "0.21.3",
     "webpack": "4.34.0",
