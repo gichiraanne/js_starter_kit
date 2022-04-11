@@ -29,7 +29,7 @@
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "whatwg-fetch": "3.0.0"
   },
   "devDependencies": {
